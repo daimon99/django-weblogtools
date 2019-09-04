@@ -1,8 +1,8 @@
 from django.apps import AppConfig
 
 
-class HttplogConfig(AppConfig):
-    name = 'httplog'
+class WeblogtoolsConfig(AppConfig):
+    name = 'weblogtools'
     verbose_name = 'HTTP接口日志'
 
     def ready(self):

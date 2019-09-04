@@ -8,4 +8,4 @@ dist: clean ## builds source and wheel package
 	ls -l dist
 
 clean:	## 清扫现场
-	-rm -rf build/ dist/
+	-rm -rf build/ dist/ *egg-info/
