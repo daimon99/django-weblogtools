@@ -1,7 +1,7 @@
 # coding: utf-8
 from django.http import HttpRequest
 
-from httplog.models import InterfaceHistory
+from weblogtools.models import InterfaceHistory
 import requests
 import json
 import time
