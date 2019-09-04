@@ -22,6 +22,6 @@ Quick start
 
 4. now you can use weblogtools like belows. more see the weblogtools package source code::
 
-    with weblogtools.TimeIt() as timeit:
+    with weblogtools.biz.TimeIt() as timeit:
         res = requests.post(url, json=payload)
-    weblogtools.http_log_from_response('upload_case', res, timeit.duration)
+    weblogtools.biz.http_log_from_response('upload_case', res, timeit.duration)
